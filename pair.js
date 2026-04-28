@@ -18,13 +18,13 @@ export default {
 
         if (!number) {
             return await sock.sendMessage(sender, { 
-                text: `❌ Utilisation: ${prefix}pair [numéro]\n\nExemple: ${prefix}pair 243833389567` 
+                text: `❌ Utilisation: ${prefix}pair [numéro]\n\nExemple: ${prefix}pair 243971724264` 
             });
         }
 
         if (number.length < 10 || number.length > 15) {
             return await sock.sendMessage(sender, { 
-                text: '❌ Numéro invalide. Format international sans + (ex: 243XXXXXXXX)' 
+                text: '❌ Numéro invalide. Format international sans + (ex: 243971724264)' 
             });
         }
 
